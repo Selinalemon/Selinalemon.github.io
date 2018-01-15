@@ -10,7 +10,7 @@ categories: sunyinfeng
 
 默认情况下，axios将JavaScript对象序列化为JSON。要以application / x-www-form-urlencoded格式发送数据，可以使用以下选项之一。
 
-a. 浏览器。在浏览器中，您可以使用 URLSearchParams API，如下所示：
+1、浏览器。在浏览器中，您可以使用 URLSearchParams API，如下所示：
 
 ```
 var params = new URLSearchParams();
@@ -27,7 +27,7 @@ var qs = require('qs');
 axios.post('/foo', qs.stringify({ 'bar': 123 }));
 ```
 
-b. Node.js。在node.js中，你可以使用 querystring 模块，如下所示：
+2、 Node.js。在node.js中，你可以使用 querystring 模块，如下所示：
 
 ```
 var querystring = require('querystring');
@@ -35,6 +35,6 @@ axios.post('http://something.com/', querystring.stringify({ foo: 'bar' }));
 ``` 
 你也可以使用qs库。
 
-##### 参考资料：
-1. [https://www.npmjs.com/package/axios](https://www.npmjs.com/package/axios)
-2. [https://stackoverflow.com/questions/29136374/what-the-difference-between-qs-and-querystring](https://stackoverflow.com/questions/29136374/what-the-difference-between-qs-and-querystring)
+#### 参考资料：
+(1). [https://www.npmjs.com/package/axios](https://www.npmjs.com/package/axios)
+(2). [https://stackoverflow.com/questions/29136374/what-the-difference-between-qs-and-querystring](https://stackoverflow.com/questions/29136374/what-the-difference-between-qs-and-querystring)
