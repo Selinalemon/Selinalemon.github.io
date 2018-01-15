@@ -36,5 +36,5 @@ axios.post('http://something.com/', querystring.stringify({ foo: 'bar' }));
 你也可以使用qs库。
 
 #### 参考资料：
-(1). [https://www.npmjs.com/package/axios](https://www.npmjs.com/package/axios)
-(2). [https://stackoverflow.com/questions/29136374/what-the-difference-between-qs-and-querystring](https://stackoverflow.com/questions/29136374/what-the-difference-between-qs-and-querystring)
+1. [https://www.npmjs.com/package/axios](https://www.npmjs.com/package/axios)
+2. [https://stackoverflow.com/questions/29136374/what-the-difference-between-qs-and-querystring](https://stackoverflow.com/questions/29136374/what-the-difference-between-qs-and-querystring)
